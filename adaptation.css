@@ -24,6 +24,12 @@
     }
 }
 
+@media all and (max-width: 1350px) {
+    .footer_Active h3 {
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width: 1280px ) {
     .Courses {
         flex-wrap: nowrap;
@@ -48,14 +54,65 @@
     .icons {
         font-size: 35px;
     }
-    
-    ..footer_Active h3 {
-        font-size: 15px;
-    }
 }
 
 @media all and (max-width: 1120px) {
-    .fa-facebook {
-        margin-left: 20px;
+    .shortcuts img {
+        height: 70px;
+        width: 70px;
+    }
+    .shortcuts {
+        top: -35px;
+        left: -35px;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .shortcuts__left img {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .shortcuts__left {
+        top: -35px;
+        right: -35px;
+        height: 70px;
+        width: 70px;
+    }
+    .courses__language {
+        max-width: 380px;
+        font-size: 15px;
+        background-position: 123% 44px;
+        padding-bottom: 5px;
+    }
+    
+    .courses__language.english {
+        background-size: 120px 110px;
+        background-position: 114% 44px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    .parent--el.is-selected h1 {
+        font-size: 23px;
+    }
+    
+    .parent--el.is-selected small {
+        font-size: 11px;
+    }
+    
+    .slide--parent {
+        max-width: 850px;
+    }
+    
+    .header__link__phone {
+        font-size: 16px;
+        margin: 29px 95px;
+    }
+    
+    .topmenu > li > a {
+        font-size: 16px;
     }
 }

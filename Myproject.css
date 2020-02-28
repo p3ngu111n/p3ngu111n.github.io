@@ -289,105 +289,6 @@ header {
     top: 50px;
 }
 
-/*--------------------------WORDS---------------------*/
-.words {
-    font-family: sans-serif;
-    z-index: 1;
-    font-size: 19px;
-    color: black;
-    position: relative;
-
-}
-
-.Develop__Advance__Achieve {
-
-    position: relative;
-    display: inline;
-    font-size: 50px;
-    color: #3075F3;
-    opacity: none;
-    z-index: 10;
-    max-width: 1000px;
-}
-
-.Home {
-    position: relative;
-    opacity: 0.7;
-    left: 3%;
-    bottom: 400px;
-    max-width: 110px;
-}
-
-.Family {
-    position: relative;
-    opacity: 0.7;
-    left: 70%;
-    max-width: 110px;
-    bottom: 150px;
-}
-
-.Support {
-    position: relative;
-    opacity: 0.7;
-    left: 85%;
-    max-width: 110px;
-}
-
-.Sincerity {
-    position: relative;
-    opacity: 0.7;
-    left: 10%;
-    max-width: 110px;
-}
-
-.Loyalty {
-    position: relative;
-    opacity: 0.7;
-    max-width: 110px;
-    bottom: 200px;
-    right: 5%;
-}
-
-.Friendship {
-    position: relative;
-    opacity: 0.7;
-    float: right;
-    bottom: 350px;
-    max-width: 110px;
-    left: 65%;
-}
-
-.Success {
-    position: relative;
-    opacity: 0.7;
-    right: 40%;
-    max-width: 110px;
-}
-
-.Fun {
-    position: relative;
-    opacity: 0.7;
-    left: 265%;
-    bottom: 300px;
-    max-width: 110px;
-}
-
-.Comfort {
-    position: relative;
-    opacity: 0.7;
-    left: 120%;
-    bottom: 140px;
-    max-width: 110px;
-}
-
-.Prosperity {
-    position: relative;
-    opacity: 0.7;
-    bottom: 20%;
-    max-width: 110px;
-}
-
-/*-------------------------end-WORDS---------------------*/
 
 .crow__title {
     display: block;
@@ -411,7 +312,6 @@ header {
 }
 
 .courses__language {
-
     padding: 20px 24px 25px 24px;
     border-radius: 12px;
     line-height: 25px;
@@ -423,7 +323,7 @@ header {
     box-shadow: 4px 4px 24px rgba(150, 118, 227, 0.8);
     background-position: 117% 44px;
     background-size: 140px 120px;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .courses__language.english {
@@ -1017,5 +917,9 @@ footer {
     margin-top: 30px;
     color: white;
 }
+
+.fa-facebook {
+        margin-left: 20px;
+    }
 
 /*-------------------END-FOOTER--------------------------------------*/
