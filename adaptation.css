@@ -1,0 +1,61 @@
+@media all and (min-width:1980px) {
+    .topmenu > li > a {
+        font-size: 22px;
+    }
+    
+    .header__link__phone {
+        font-size: 22px;
+    }
+    
+    .header__logo {
+        font-size: 42px;
+    }
+    
+    .crow__title {
+        font-size: 53px;
+    }
+    
+    ..b-ff-cross-header__button_blue {
+        padding: 15px 30px;
+    }
+    
+    ..b-ff-cross-header__button {
+        font-size: 29px;
+    }
+}
+
+@media all and (max-width: 1280px ) {
+    .Courses {
+        flex-wrap: nowrap;
+    }
+    
+    .courses__language {
+        font-size: 17px;
+        max-width: 420px;
+    }
+    
+    .qew {
+        margin-right: 20px;
+    }
+    
+    #back-top {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .icons {
+        font-size: 35px;
+    }
+    
+    ..footer_Active h3 {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 1120px) {
+    .fa-facebook {
+        margin-left: 20px;
+    }
+}

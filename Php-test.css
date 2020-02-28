@@ -1,0 +1,82 @@
+body{
+padding: 0 0 0 0 ;
+margin: 0 0 0 0;
+background-color: white;
+}
+
+
+.forms__php{
+ position: relative;
+width: 90%;
+margin: 0 auto;
+top: 200px;
+}
+
+form{
+text-align: center;
+}
+
+input:required + .help-text::before {
+ content: '*Required';
+}
+
+input[type="text"] {
+   border: 1px solid #0048BA; 
+   height:  27px; 
+   width: 330px; 
+   font-size: 14px; 
+   font-family: Tahoma;
+}
+
+input[type="email"] {
+   border: 1px solid #0048BA; 
+   height:  27px; 
+   width: 330px; 
+   font-size: 14px; 
+   font-family: Tahoma;
+}
+
+.b-ff-cross-header__button {
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid #242d34;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #242d34;
+    outline: 0;
+    cursor: pointer;
+    padding: 7px 10px 7px 10px;
+    min-width: 74px;
+}
+
+.simplePage .b-ff-cross-header__button {
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.b-ff-cross-header__button:hover {
+    opacity: .7
+}
+
+.b-ff-cross-header__button_blue {
+    border-color: #3075f3;
+    border-top-color: rgb(48, 117, 243);
+    border-right-color: rgb(48, 117, 243);
+    border-bottom-color: rgb(48, 117, 243);
+    border-left-color: rgb(48, 117, 243);
+    background: #3075f3;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+    color: #fff;
+    padding-right: 23px;
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
