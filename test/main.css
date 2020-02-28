@@ -1,0 +1,108 @@
+.crow__title {
+    display: block;
+    font-size: 42px;
+    line-height: 38px;
+    text-align: center;
+    max-width: 800px;
+    margin: 100px auto 0 auto;
+    font-family: "Museo Sans Cyrillic";
+    font-weight: bolder;
+}
+
+
+
+.Courses {
+    height: 800px;
+    width: 100%;
+    margin-top: 15px;
+    z-index: 1001;
+    position: relative;
+}
+
+.content {
+    padding: 6px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.courses__language {
+
+    padding: 20px 24px 25px 24px;
+    border-radius: 12px;
+    font-size: 19px;
+    line-height: 25px;
+    color: white;
+    background-repeat: no-repeat;
+    height: 280px;
+    right: 65%;
+}
+
+.courses__language.english {
+    background-color: #4287CE;
+    box-shadow: 4px 4px 24px rgba(150, 118, 227, 0.8);
+    background-image: url(image/1f469-1f3fc-200d-1f4bb.png);
+    background-position: 123% 44px;
+    background-size: 150px 140px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    z-index: 14;
+    max-width: 460px;
+}
+
+.courses__language.deutsch {
+    background-color: #D43B3B;
+    box-shadow: 4px 4px 24px rgba(150, 118, 227, 0.8);
+    background-image: url(image/1f60d.png);
+    background-position: 109% 44px;
+    background-size: 140px 120px;
+    margin: 20px 0;
+    z-index: 14;
+    max-width: 460px;
+}
+
+.courses__language.ukraine {
+    background-color: #1B1B1B;
+    box-shadow: 4px 4px 24px rgba(150, 118, 227, 0.8);
+    background-image: url(image/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-Emoji-Emoticons-Smileys-Yellow-43.png);
+    background-position: 109% 44px;
+    background-size: 140px 120px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    z-index: 15;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 460px;
+}
+
+.courses__language.BHO {
+    background-color: #FF6B84;
+    box-shadow: 4px 4px 24px rgba(150, 118, 227, 0.8);
+    background-position: 113% 44px;
+    background-size: 140px 120px;
+    background-image: url(image/1f4b0.png);
+    font-size: 19px;
+    margin: 20px 0;
+    z-index: 15;
+    color: white;
+    max-width: 460px;
+}
+
+.courses__language__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.shortcuts {
+    position: relative;
+    bottom: 330px;
+    right: 21.5%;
+}
+
+.shortcuts__left {
+    position: relative;
+    bottom: 370px;
+    left: 75%;
+}
+
